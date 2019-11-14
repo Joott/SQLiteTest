@@ -1,0 +1,29 @@
+type file
+id SQLiteTest
+title
+    SQLiteTest
+owners
+    Author not set
+authors 
+    Author not set
+projectUrl
+    https://github.com/[github-user]/SQLiteTest
+iconUrl
+    https://raw.githubusercontent.com/[github-user]/SQLiteTest/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/[github-user]/SQLiteTest/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+language
+    F#
+copyright
+    Copyright 2017
+tags
+    fsharp
+summary
+    Summary not set
+description
+    Description not set
+
+files
+	../../bin/SQLiteTest ==> lib
