@@ -162,6 +162,11 @@ Target.create "Build" (fun _ ->
     MSBuild.build setParams solutionFile
 )
 
+//Target.create "Build" (fun _ ->
+//    !! "SQLiteTest/*.*proj"
+//    |> Seq.iter (DotNet.build id)
+//)
+
 // --------------------------------------------------------------------------------------
 // Run the unit tests using test runner
 
